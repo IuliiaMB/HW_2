@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.liste_currency {
+    font-size: 50px;
+    font-weight: 900;
+    padding: 20px;
+}
+
+.currency {
+    padding-left: 60px;
+}
+
+.currency li {
+    font-size: 30px;
+}
+
+.img_usd,
+.img_eur {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.table {
+    border: 2px solid gray;
+}
+
+td, th {
+    border: 2px solid black;
+    padding: 10px 2px;
+}
+
+td {
+    font-weight: 800;
+    padding-left: 10px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.exchange_rate {
+    font-size: 50px;
+    padding-left: 20px;
+    margin: 20px 0;
+}
+
+.table {
+    margin-left: 50px;
+}
+
+.title:last-child {
+    padding: 30px;
+}
+
+
