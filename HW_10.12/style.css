@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tel_ran {
+    margin: 30px;
+    background: linear-gradient(132.05deg, #428E5F -17.38%, #112120 78.4%);
+    padding: 30px 0;
+    border-radius: 20px;
+}
+
+.title {
+    text-transform: uppercase;
+    text-align: center;
+    color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content_1,
+.content_2,
+.content_3 {
+    background: linear-gradient(132.05deg, #c61a84 -17.38%, #6707cf 78.4%);
+    border-radius: 20px;
+    padding: 21px;
+    margin: 20px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-style: italic;
+}
