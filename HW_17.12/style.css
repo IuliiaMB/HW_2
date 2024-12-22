@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 420px;
+    height: 456px;
+    margin: 0 auto;
+    border: 2px solid rgba(255, 255, 255, 1);
+    box-shadow: 0px 20px 32px 0px rgba(96, 97, 112, 0.24);
+    border-radius: 5%;
+    margin-top: 20px;
+}
+
+.icone_close {
+    display: flex;
+    justify-content: end;
+    margin-top: 16px;
+}
+
+.icone_close i {
+    width: 34px;
+    height: 34px;
+}
+
+.registration {
+    font-family: "Nunito", serif;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 32px;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 24px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.form input {
+    width: 356px;
+    height: 48px;
+    border: 1px solid rgba(207, 216, 220, 1);
+    border-radius: 12px;
+
+
+}
+
+input::placeholder {
+    font-family: "Nunito", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(123, 142, 152, 1);
+    padding-left: 16px;
+}
+
+.info {
+    font-family: "Nunito", serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: rgba(123, 142, 152, 1);
+    margin: 24px 0;
+}
+
+.registration_btn {
+    background-color: rgba(255, 228, 77, 1);
+    border-radius: 55px;
+    border: none;
+    height: 48px;
+    font-family: "Nunito", serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.log_btn{
+    border: 1px solid rgba(207, 216, 220, 1);
+    border-radius: 87px;
+    height: 48px;
+    margin-bottom: 48px;
+    border: none;
+    height: 48px;
+    font-family: "Nunito", serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.form_mail:focus {
+    outline: 2px solid yellow;
+}
+
