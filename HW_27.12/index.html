@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <script>
+
+// 1. Написать программу, которая через prompt считывает число и выводит в консоль число равное 10% от введенного числа.
+
+let sum = Number(prompt('Введите число:'));
+let result = sum * 0.10;
+
+alert(result)
+
+
+// 2. Написать программу, которая получает два числа и выводит наименьшее.
+
+let number1 = Number(prompt('Введите первое число:'));
+let number2 = Number(prompt('Введите второе число:'));
+
+let minimum = Math.min(number1, number2);
+
+alert("Вывод наименьшего числа: " + minimum)
+
+// 3. Написать программу, которая считывает через prompt число и выводит одно из следующих сообщений: ‘Число меньше 100’, ‘Число больше 100’ или ‘Число равно 100’.
+
+let newNumber = Number(prompt('Введите число:'));
+
+if (NewNumber < 100) {
+    alert('Число меньше 100');
+} else if (NewNumber > 100) {
+    alert('Число больше 100');
+} else {
+    alert('Число ровно 100');
+}
+
+// 4. Написать программу, которая запрашивает у пользователя его имя и возраст (в годах) и выводит в консоль сообщение ‘Hello, ’, если пользователь совершеннолетний, или ‘Hi, ’, если пользователь несовершеннолетний.
+
+let userName = String(prompt('Введите имя:'));
+let yearOfBirtgday = Number(prompt('Введите год рождения:'));
+
+if (yearsOfBirtgday <= 1996 ) {
+    alert('Hello, ' + userName);
+} else {
+    alert('Hi, ' + userName)
+}
+
+
+    </script>
+    
+</body>
+</html>
